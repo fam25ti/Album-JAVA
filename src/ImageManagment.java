@@ -81,7 +81,7 @@ public class ImageManagment {
 		Image img;
 		Image scaled = null;
 		try {
-		img=ImageIO.read(new File("C:\\Users\\mohammad\\Desktop\\welcome.jpg"));//to read image welcome from file
+		img=ImageIO.read(new File("C:\\Users\ft\\Desktop\\welcome.jpg"));//to read image welcome from file
 		scaled=img.getScaledInstance(429, 180, 0);//to fix image to panel_1
 		
 		}
